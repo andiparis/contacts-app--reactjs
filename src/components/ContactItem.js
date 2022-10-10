@@ -7,7 +7,7 @@ function ContactItem({ id, imageUrl, name, tag, onDelete }) {
   return (
     <div className="contact-item">
       <ContactItemImage imageUrl={imageUrl} />
-      <ContactItemBody name={name} tag={name} />
+      <ContactItemBody name={name} tag={tag} />
       <DeleteButton id={id} onDelete={onDelete} />
     </div>
   );
